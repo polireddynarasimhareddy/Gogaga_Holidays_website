@@ -1,0 +1,164 @@
+.bg-container{
+    font-family: cursive;
+}
+#bg_travel_color{
+    background-color: rgb(229, 245, 245) !important;
+    
+    font-size: 17px;
+}
+.img_logo{
+    height: 40px;
+    width: 80px;
+    margin-left: 10px;
+}
+nav{
+    height: 10vh !important;
+}
+
+a:hover{
+    background-color: rgb(15, 168, 182);
+    border-radius: 20px;
+}
+    
+img{
+    /* background-image: url("https://media.licdn.com/dms/image/C4D05AQEObZzgO3uFJA/feedshare-thumbnail_720_1280/0/1627709275867?e=2147483647&v=beta&t=grmW29gbm08UX2AbZ5GjMylE-1Whqkhm0ORp6eMV-rY"); */
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+}
+
+.view_all_btn{
+    border: double;
+    border-color: rgb(1, 1, 5);
+    border-radius: 7px;
+    background-color: transparent;
+    font-size: auto;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px 10px;
+    position: absolute ;
+    margin-left: 77%;
+}
+button:hover{
+    background-color: rgb(15, 168, 182);
+    border: none;
+    font-family: cursive;
+} 
+
+.bg_container_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.bg_container_2{
+    font-family: cursive;
+}
+
+ .Holiday_packages_head{
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ .paris_img{
+    height: 30vh;
+    width: 21vw;
+ }
+
+ 
+ @media (max-width:750px) {
+    .paris_img{
+        height: 25vh;
+        width: 65vw;
+        margin: 20px;
+     }
+     
+     .paris_button{
+        margin-bottom: 20px;
+     }
+     
+ }
+
+ @media (max-width:570px) {
+    .paris_img{
+        height: 25vh;
+        width: 65vw;
+        margin: 20px;
+     }
+    }
+span{
+    color: rgb(91, 164, 13);
+    font-size: 18px;
+}
+.travel_img{
+    width: 48vw;
+    height: 240px;
+}
+@media (max-width:1111px){
+    .travel_img{
+        width: 48vw;
+        height: 240px;
+    }
+}
+@media (max-width:750px){
+    .travel_img{
+        width: 80vw;
+        height: 240px;
+    }
+}
+@media (max-width:570px){
+    .travel_img{
+        width: 80vw;
+        height: 240px;
+    }
+}
+
+.footer-background {
+    background-color: #19232d;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.footer-img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.icon-modify {
+    background-color: white;
+    padding: 15px;
+    margin: 5px;
+    font-size: 24px;
+    border-radius: 40px;
+    color: #959ead;
+}
+
+.card1-para {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.mail {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.mail-1 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.luhy {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.crea-by {
+    color: black;
+    font-size: 27px;
+    border-radius: 20px;
+}
+
+.footer-card {
+    text-align: center;
+    color: white;
+}
